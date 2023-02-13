@@ -211,7 +211,7 @@
 
 @for $i from 0 to 9 {
   .delay-#{$i} {
-    animation-delay: calc($i/10)s;
+    animation-delay: #{$i/10}s;
   }
 }
 
